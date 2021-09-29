@@ -1,0 +1,21 @@
+.header {
+    grid-area: h;
+
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 400px);
+    background: linear-gradient(90deg, darkgrey 0%, white 140%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.header img {
+    width: 80px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.name_header {
+    margin-right: 40px;
+    justify-self: end;
+}

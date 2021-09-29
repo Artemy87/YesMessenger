@@ -1,0 +1,24 @@
+.nav {
+    grid-area: n;
+    background: darkgrey;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid grey;
+}
+
+.item {
+    margin: 20px 10px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: deeppink;
+}
+
+.item a:focus {
+    color: gold;
+    font-size: 1.2rem;
+}

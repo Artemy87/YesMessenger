@@ -1,0 +1,13 @@
+.item {
+    color: black;
+}
+
+.item > img {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.item_name {
+    font-size: 1.2em;
+    font-style: oblique;
+}
