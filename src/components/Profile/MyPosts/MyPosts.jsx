@@ -4,7 +4,7 @@ import styles from './MyPosts.module.css';
 
 const MyPosts = ({dataPosts}) => {
 
-    const postsElements = dataPosts.map(el => <Post message={el.message} likecount={el.likesCount}/>)
+    const postsElements = dataPosts.posts.map(el => <Post key={el.id} message={el.message} likecount={el.likesCount}/>)
 
     return (
         <div className={styles.posts}>

@@ -12,9 +12,7 @@ import Settings from "./components/Settings/Settings";
 import './App.css';
 
 
-const App = ({data}) => {
-
-    const {dialogs, messages, posts} = data;
+const App = (props) => {
 
     return(
         <BrowserRouter>
@@ -25,14 +23,20 @@ const App = ({data}) => {
                     <div className='app-wrapper-content'>
                         <Switch>
                             <Route path='/profile'>
-                                <Profile dataPosts={posts}/>
+                                <Profile dataPosts={props.data.profileData}/>
                             </Route>
                             <Route exact path='/dialogs'>
-                                <Dialogs dataDialogs={dialogs} dataMessages={messages}/>
+                                <Dialogs dataDialogs={props.data.dialogsData}/>
                             </Route>
-                            <Route path='/news' component={News} />
-                            <Route path='/music' component={Music} />
-                            <Route path='/settings' component={Settings}/>
+                            <Route path='/news'>
+                                <News />
+                            </Route>
+                            <Route path='/music'>
+                                <Music />
+                            </Route>
+                            <Route path='/settings'>
+                                <Settings />
+                            </Route>
                         </Switch>
                     </div>
                 </div>
