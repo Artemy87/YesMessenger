@@ -1,12 +1,12 @@
 body {
   font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-  background: aliceblue;
+  background: lightslategray;
   margin: 30px;
 }
 
 .app {
   display: grid;
-  grid-template-columns: 3fr 700px 3fr;
+  grid-template-columns: 1fr 750px 1fr;
 }
 
 .app-wrapper {
@@ -17,13 +17,16 @@ body {
   "h h"
   "n c";
 
-  grid-template-rows: 80px 1fr;
-  grid-template-columns: 100px 1fr;
   justify-content: center;
+  grid-template-columns: 170px 1fr;
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background: linear-gradient(90deg, darkgrey 0%, white 140%);
+  /*background: linear-gradient(90deg, darkgrey 0%, white 140%);*/
+  /*background: aliceblue;*/
+  background: rgb(255, 255, 255);
+  border-bottom-right-radius: 30px;
+  border-bottom: 1px solid grey;
 }
 

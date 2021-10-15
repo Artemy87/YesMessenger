@@ -1,7 +1,28 @@
 .posts {
     margin: 10px;
+    /*background: darkseagreen;*/
 }
 
-.my_posts_button {
-    margin-bottom: 10px;
+.post_form > textarea {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.my_posts_button > button {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 0 30px 0;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);*/
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }

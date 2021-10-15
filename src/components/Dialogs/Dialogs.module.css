@@ -1,16 +1,46 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 8fr;
-    margin-top: 10px;
+    grid-template-columns: 1fr auto;
+    margin: 10px;
+    background: darkseagreen;
+    border-radius: 30px;
 }
 
 .dialogs_items {
     color: black;
     text-decoration: none;
-    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
     margin-left: 10px;
 }
 
-.messages {
+.dialogs_messages {
+    margin: 10px;
+    padding: 10px;
+}
+
+.dialogs_send_messages {
+    margin: 50px 0 50px 0;
+}
+
+.send_message_form {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.send_message_button {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px 40px;
     margin-top: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    /*letter-spacing: 2px;*/
+    /*background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);*/
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
 }
