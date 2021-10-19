@@ -26,10 +26,10 @@ const App = () => {
                                render={() => <DialogsContainer />} />
                         <Route path='/news'
                                render={() => <News />} />
-                        <Route path='/music'
-                               render={() => <Music />} />
                         <Route path='/users'
                                render={() => <UsersContainer />} />
+                        <Route path='/music'
+                               render={() => <Music />} />
                         <Route path='/settings'
                                render={() => <Settings />} />
                     </Switch>

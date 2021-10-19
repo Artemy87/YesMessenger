@@ -40,9 +40,8 @@ const Dialogs = (
                     </div>
                     <button
                         className={styles.send_message_button}
-                        onClick={onSendMessageClick}>
-                        Send
-                    </button>
+                        onClick={onSendMessageClick}
+                    >Send</button>
                 </div>
             </div>
         </div>

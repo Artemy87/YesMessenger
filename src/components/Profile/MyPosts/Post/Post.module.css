@@ -1,9 +1,13 @@
 .item {
     color: black;
+    background: darkseagreen;
+    /*margin: 10px;*/
+    border-radius: 10px;
 }
 
 .item > img {
     width: 60px;
+    margin: 10px;
     border-radius: 5px;
 }
 
@@ -13,7 +17,7 @@
 }
 
 .message {
-    margin-bottom: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid grey;
 }

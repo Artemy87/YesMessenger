@@ -1,18 +1,37 @@
 .users {
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    background: darkseagreen;
+}
+
+.pageNumbers {
+    font-size: 1.1rem;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.currentNumber {
+    font-size: 1.3rem;
+    color: black;
+    margin: 2px;
 }
 
 .usersAvatar > img {
-    width: 120px;
-    border-radius: 5px;
-    border: 1px solid grey;
+    width: 80px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .usersButton > button {
-    width: 95px;
+
+    width: 90px;
     padding: 3px;
-    margin: 2px;
+    margin: 0 10px 0 10px;
     border-radius: 5px;
 
     text-decoration: none;
@@ -29,4 +48,14 @@
     /*background-size: 200% auto;*/
     /*box-shadow: 0 0 20px rgba(0, 0, 0, .1);*/
     /*transition: .5s;*/
+}
+
+.usersStatus {
+    margin: 10px 10px 20px 10px;
+    color: rgb(0, 300, 0);
+    font-weight: bold;
+}
+
+.usersInfo {
+    margin: 10px;
 }

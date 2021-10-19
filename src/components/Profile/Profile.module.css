@@ -1,6 +1,4 @@
 .profile {
-    border-right: 1px solid darkseagreen;
-    border-bottom: 1px solid darkseagreen;
-
-    /*margin: 63px;*/
+    border-bottom: 1px solid grey;
+    border-bottom-right-radius: 30px;
 }

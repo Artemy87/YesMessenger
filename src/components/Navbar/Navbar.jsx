@@ -20,10 +20,10 @@ const Navbar = ({friends}) => {
                 <NavLink to='/news'>News</NavLink>
             </div>
             <div className={styles.item}>
-                <NavLink to='/music'>Music</NavLink>
+                <NavLink to='/users'>Users</NavLink>
             </div>
             <div className={styles.item}>
-                <NavLink to='/users'>Users</NavLink>
+                <NavLink to='/music'>Music</NavLink>
             </div>
             <div className={styles.item}>
                 <NavLink to='/settings'>Settings</NavLink>
